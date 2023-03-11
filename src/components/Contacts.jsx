@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contacts = () => {
   return (
-    <div>
+    <div className='flex bg-[#b3ffb3] min-h-[100vh] pt-[10vh] dark:text-white'>
       Contact page
     </div>
   )
