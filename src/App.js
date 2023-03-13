@@ -9,12 +9,13 @@ import Impact from "./components/Impact";
 import NotFound from "./components/NotFound";
 import Projects from "./components/Projects";
 import Team from "./components/Team";
+import Navbar from "./Layout/Navbar";
 
 function App() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/home" element={<Home />} />
+      {/* <Route path="/home" element={<Home />} /> */}
       <Route path="/about" element={<About />} />
       <Route path="/projects" element={<Projects />} />
       <Route path="/team" element={<Team />} />
@@ -22,6 +23,7 @@ function App() {
       <Route path="/impact" element={<Impact />} />
       <Route path="/contacts" element={<Contacts />} />
       <Route path="/donate" element={<Donation />} />
+      <Route path="/nav" element={<Navbar />} />  
       <Route path="*" element={<NotFound />} />
     </Routes>
   );
