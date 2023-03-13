@@ -1,5 +1,5 @@
 import React from "react";
-import HomeSlider from "./HomeSlider";
+// import HomeSlider from "./HomeSlider";
 // import About from './About'
 // import Contacts from './Contacts'
 // import Donation from './Donation'
@@ -13,7 +13,7 @@ const Home = () => {
       {/* <div className="flex bg-[#F9F9FB] min-h-[100vh] dark:bg-dark-bg dark:text-white"> */}
       Home page for Landing Page
 
-      <HomeSlider/>
+      {/* <HomeSlider/> */}
     </div>
   );
 };

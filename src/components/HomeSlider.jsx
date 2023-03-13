@@ -21,7 +21,7 @@ const HomeSlider = () => {
 
   
   return (
-    <div>
+    <div className='z-1'>
         <h1>Image slider component</h1>
         <div style={ContainerStyles}>
         <ImageSlider slides = {slides}/>
