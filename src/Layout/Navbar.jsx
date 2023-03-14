@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { FiMenu } from 'react-icons/fi';
 import { TfiClose } from 'react-icons/tfi';
-import "./../navbar.css"
+
 import { links } from "./navlinks";
 import logo from "./logo.png";
 const Navbar = () => {
