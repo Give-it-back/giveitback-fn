@@ -1,15 +1,16 @@
 import React from "react";
 import { Routes, Route, } from "react-router-dom";
-import About from "./components/About";
-import Activities from "./components/Activities";
-import Contacts from "./components/Contacts";
-import Donation from "./components/Donation";
-import Home from "./components/Home";
-import Impact from "./components/Impact";
-import NotFound from "./components/NotFound";
-import Projects from "./components/Projects";
-import Team from "./components/Team";
+import About from "./pages/About";
+import Activities from "./pages/Activities";
+import Contacts from "./pages/Contacts";
+import Donation from "./pages/Donation";
+import Home from "./pages/Home";
+import Impact from "./pages/Impact";
+import NotFound from "./pages/NotFound";
+import Projects from "./pages/Projects";
+import Team from "./pages/Team";
 import Navbar from "./Layout/Navbar";
+import "./App.css"
 
 function App() {
   return (

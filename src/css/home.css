@@ -1,0 +1,129 @@
+.landing-body{
+    display: flex;
+    flex-direction: column;
+}
+
+.overview{
+    flex: 3;
+    border: 1px solid rgb(53, 29, 12);
+    margin: 2px;;
+    padding: 3px;
+}
+
+.overview h1{
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 3rem;
+
+}
+.overview p{
+    text-align: justify;
+}
+
+.overview-image{
+    flex: 1;
+    border: 1px solid rgb(53, 29, 12);
+    margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.75rem;
+}
+
+.overview-image img{
+    width: 30vw;
+    border-radius: 5%;
+}
+
+.mission-vision-values{
+    margin: 2px;
+    padding: 0.75rem;
+    border: 1px solid rgb(53, 29, 12);
+}
+
+.mission-vision-title{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.mission-vision-title h1{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+
+.mission-vision-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.mission,.vision,.values {
+    flex:1;
+    /* background-color: aqua; */
+    margin: 0.75rem 0.25rem;
+    border: 2px solid #000;
+    border-radius: 0.5rem ;
+    padding: 0.5rem;
+
+}
+.mission:hover,.vision:hover,.values:hover {
+    background-color: #16A085;
+    color: #fff;
+    transition: all 0.5s ease-out;
+
+}
+.mission h2,.vision h2,.values  h2{
+text-align: center;
+font-size: 2rem;
+font-weight: 600;
+}
+.mission img,.vision img,.values  img{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 5.2rem;
+    border-radius: 0.5rem;
+    height: 4rem;
+
+}
+/* .mission ul,.vision ul,.values  ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; 
+    margin-left: 25%;
+    background-color: white;
+} */
+
+.contacts-donation{
+    display: flex;
+    flex-direction: column;
+}
+.contacts-donation .contacts, .contacts-donation .donation{
+    flex: 1;
+    height: 100%;
+}
+
+
+@media screen and (min-width: 768px) {
+    .landing-body{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .overview-image img{
+        width: 100%;
+        border-radius: 5%;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .mission-vision-body{
+        flex-direction: row;
+    }
+    .contacts-donation{
+        flex-direction: row;
+    }
+    .contacts-donation .contacts, .contacts-donation .donation{
+       min-height: 50vh;
+    }
+}
